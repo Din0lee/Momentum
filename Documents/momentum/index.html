@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset ="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Momentum</title>
+    </head>
+
+    <body>
+        <main_page_1>
+            <a href="https://naver.com" >
+                <img src="C:/Users/act09/Documents/momentum/img/naver_icon.jpg" style="width:50px;height:50px;border-radius: 30%;position:fixed">
+            </a>
+            <a href="https://google.com" >
+                <img src="C:/Users/act09/Documents/momentum/img/google_icon.jpg" style="width:50px;height:50px;border-radius: 30%;position:fixed;left: 60px;">
+            </a>
+            <a href="http://yu.ac.kr" >
+                <img src="C:/Users/act09/Documents/momentum/img/yu_logo.jpg" style="width:50px;height:50px;border-radius: 30%;position:fixed;left:115px">
+            </a>
+            <a href="https://github.com/">
+                <img src="C:/Users/act09/Documents/momentum/img/gitHub_icon.png" style="width:50px;height:50px;border-radius: 30%;position:fixed;left:170px">
+            </a>
+    
+            <h2_clock_and_weather>
+                <h2 id="clock">00:00</h2>
+                <div id="city_weather">
+                    <span></span>
+                    <span></span>
+                </div> 
+                <div id="temp_humid">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div id="feels_like">
+                    <span></span>
+                </div>
+            </h2_clock_and_weather>
+            
+    
+            <from id="naver_search">
+                <div></div>
+            </from>
+    
+            <h1_with_login>
+                <form id="login-form" class = "hidden">
+                    <input required maxlength="15" type="text" placeholder="What is your name?" />
+                    <input type="submit" value="Log In"/>
+                </form>
+        
+                <h1 id="greeting" class = "hidden"></h1>
+            </h1_with_login>
+    
+            <h3>
+                <form id="todo-form">
+                    <input type="text" placeholder="Write a To Do and Press Enter" />
+                </form>
+                
+                <ul id="todo-list">          
+                </ul>
+            </h3>
+            
+            <div class="triangle"></div>
+
+            <quote>
+                <center>
+                    <div id="quote">
+                        <span></span>
+                    </div>
+                    <div id="author">
+                        <span></span>
+                    </div>
+                </center>     
+            </quote>
+            
+    
+            
+            <script src="js/greeting.js"></script>
+            <script src="js/clock.js"></script>
+            <script src="js/quotes.js"></script>
+            <script src="js/todo.js"></script>
+            <script src="js/weather.js"></script>
+            <!-- <script src="js/background.js"></script> ---->
+        </main_page_1>
+        
+
+        <main_page_2>
+            <div>Hello Main page 2</div>
+        </main_page_2>
+    </body>
+</html>

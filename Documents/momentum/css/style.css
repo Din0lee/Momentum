@@ -1,0 +1,76 @@
+
+body{
+    background-image: url("/Users/act09/Documents/momentum/img/neonCircle.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+main_page_2{
+    color :azure;
+    position : relative;
+    top: 500px;
+    left: 0px;
+    height: 1500px;
+    width: 2000px;
+}
+
+h1_with_login{
+    color: cornflowerblue;
+    transition: color 0.5s ease-in-out;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+h2_clock_and_weather{
+    color : whitesmoke;
+    position: fixed;
+    font-weight: bolder;
+    top: 30px;
+    left: 1530px;
+}
+
+h3{
+    color: whitesmoke;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+
+quote{
+    color : whitesmoke;
+    position: fixed;
+    top:750px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.triangle {
+    position: relative;
+    top:300px;
+    left:1300px;
+  color: aliceblue;
+  background-color: aliceblue;
+  width: 0px;
+  height: 0px;
+  border-bottom: 360px solid #666666;
+  border-left: 180px solid #666666;
+  border-right: 180px solid #666666;
+}
+
+.clicked{
+    color: tomato;
+}
+
+.sexy-font{
+    font-family: "Segoe UI";
+}
+
+.hidden{
+    display: none;
+}
